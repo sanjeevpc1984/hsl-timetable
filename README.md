@@ -3,7 +3,7 @@ Planning the journey from eficode headquarter(Pohjoinen Rautatiekatu 25) for sta
 
 # URL to Cloud Application Platform 
 
-### http://hsl-planner.herokuapp.com/
+### http://sleepy-ridge-18201.herokuapp.com/
 
 ## docker hub image
 
