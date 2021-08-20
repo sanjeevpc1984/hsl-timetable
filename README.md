@@ -1,6 +1,14 @@
 # Journey Planner
 Planning the journey from eficode headquarter(Pohjoinen Rautatiekatu 25) for staffs
 
+# URL to Cloud Application Platform 
+
+### http://hsl-planner.herokuapp.com/
+
+## docker hub image
+
+### docker pull sanjeevpc/hsl-timetable:latest
+
 ## Available Scripts
 
 In the project directory, you can run:
