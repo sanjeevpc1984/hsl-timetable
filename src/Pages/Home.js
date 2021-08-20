@@ -3,6 +3,7 @@ import { useLazyQuery } from "@apollo/client";
 import { GET_JOURNEY_QUERY } from "../GraphQL/Queries";
 import styled from 'styled-components';
 import Table from './Table'
+import  Spinner  from "../Spinner";
 
 const Styles = styled.div`
   padding: 1rem;
@@ -182,7 +183,7 @@ function Home() {
     }
   );
 
-  if (loading) return "Loading...";
+  if (loading) return <Spinner />;
   if (error) return <pre>{error.message}</pre>;
 
   let results123 = []
